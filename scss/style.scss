@@ -1,0 +1,48 @@
+@use'heading';
+@use'variables';
+@use'left';
+@use'right';
+
+body {
+    background-color: variables.$secondary-blue;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    display: flex;
+    color: variables.$white;
+}
+
+.greenBox {
+    width: 70px;
+    height: 10px;
+    background-color: variables.$primary-green;
+    margin: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h4 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 0px;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 0px;
+    color: variables.$primary-blue;
+}
+p {
+    font-size: 20px;
+    color: variables.$primary-blue;
+}
+
+li {
+    font-size: 20px;
+    color: variables.$primary-blue;
+}

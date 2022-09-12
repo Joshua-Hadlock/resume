@@ -1,0 +1,19 @@
+$primary-blue: #2F4858;
+$secondary-blue: #86BBD8;
+$third-blue: #336699;
+$primary-green: #9EE493;
+$picture-one: '../images/produce.jpg';
+$picture-me: '../images/me.jpg';
+$my-picture-size: 250px;
+$white: rgb(255, 255, 255);
+$black: rgb(49, 49, 49);
+$gray: #d2d2d2;
+$fonts: Arial, Helvetica, sans-serif;
+$default-margin: 15px;
+
+
+
+@mixin background($backColor,$width-content) {
+    background-color: $backColor;
+    width: $width-content;
+}

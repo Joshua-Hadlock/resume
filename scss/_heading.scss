@@ -1,0 +1,71 @@
+@use '_variables';
+
+%picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.backImage {
+    @extend %picture;
+    background-image: url(variables.$picture-one);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.me {
+    @extend %picture;
+    width: variables.$my-picture-size;
+    height: variables.$my-picture-size;
+    border-radius: 130px;
+    background: url(variables.$picture-me);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: variables.$white;
+    font-size: 80px;
+    font-family: variables.$fonts;
+    transition: all .8s;
+}
+.title {
+    color: variables.$white;
+    font-size: 40px;
+    font-family: variables.$fonts;
+    transition: all .8s;
+}
+
+.darken {
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 50px;
+    }
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
