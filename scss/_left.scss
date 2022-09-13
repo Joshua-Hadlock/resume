@@ -5,7 +5,7 @@
 .left {
     @include variables.background(variables.$white, 40%);
     color: variables.$third-blue;
-
+    height: 100%;
 
     div {
         margin: variables.$default-margin;

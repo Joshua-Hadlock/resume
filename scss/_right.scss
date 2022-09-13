@@ -3,7 +3,7 @@
 .right {
     @include variables.background(variables.$gray, 60%);
     color: variables.$third-blue;
-
+    height: auto;
     div {
         margin: variables.$default-margin;
     }

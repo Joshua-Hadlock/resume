@@ -35,7 +35,7 @@ h1 {
 
 .title {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   transition: all 0.8s;
 }
@@ -69,6 +69,7 @@ h1 {
   background-color: rgb(255, 255, 255);
   width: 40%;
   color: #336699;
+  height: 100%;
 }
 .left div {
   margin: 15px;
@@ -86,6 +87,7 @@ a {
   background-color: #d2d2d2;
   width: 60%;
   color: #336699;
+  height: auto;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .right div {
@@ -93,7 +95,6 @@ a {
 }
 
 body {
-  background-color: #86BBD8;
   margin: 0px;
   padding: 0px;
 }
