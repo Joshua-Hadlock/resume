@@ -54,7 +54,7 @@ h1 {
     font-size: 50px;
   }
   .title {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media (max-width: 650px) {
@@ -62,7 +62,7 @@ h1 {
     font-size: 30px;
   }
   .title {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .left {
